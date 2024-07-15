@@ -1,0 +1,20 @@
+name: grpc_test
+version: 0.1.0
+
+authors:
+  - dsisnero <dsisnero@gmail.com>
+
+targets:
+  grpc_server:
+    main: src/server.cr
+  grpc_client:
+    main: src/client.cr
+
+dependencies:
+  grpc:
+    github: jgaskins/grpc
+
+
+crystal: '>= 1.11.2'
+
+license: MIT
