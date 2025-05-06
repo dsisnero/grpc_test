@@ -1,4 +1,4 @@
-## Generated from hello_world.proto
+# # Generated from hello_world.proto
 require "grpc/service"
 
 abstract class Greeter
